@@ -1,0 +1,25 @@
+body {
+    background: rgb(238, 31, 169);
+    font-size:20px; 
+}
+img{
+    width: 200px; 
+}
+div {
+}
+.small { 
+    width: 200 px;
+
+}
+
+.medium { 
+    width: 400px
+}
+
+.header {
+    background: #0f0;
+}
+
+.content {
+    background: #b200ff;
+}

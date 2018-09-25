@@ -1,12 +1,14 @@
 body {
-    background: #ffa;
+    background: rgb(44, 41, 182);
     font-size:30px; 
+    color: #ffffff;
 }
 img{
-    width: 200px; 
+    width: 200px;
+    
 }
 div {
-    background: #ccc;
+    background: rgb(34, 190, 125);
 }
 .small { 
     width: 200 px;
@@ -14,7 +16,7 @@ div {
 }
 
 .medium { 
-    width: 400px
+    width: 400px;
 }
 
 .header {
