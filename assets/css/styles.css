@@ -1,34 +1,29 @@
+
 body {
-    background: rgb(0, 0, 0);
+    background-image: linear-gradient(-90deg, #1D29B2, #2ED143, #E8F145);
+    
+}
+.section{
     font-size:10px; 
     color: #ffffff;
     font-family: Monaco, Helvetica, Arial, san-serif;
-
 }
-img{
-    width: 200px;
-    
-}
-div {
-   
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 5%
-
-}
-.small { 
-    width: 200 px;
-
+.content{
+    font-size: 8px;
+    text-align: center;
+    font-family: Monaco, Helvetica, Arial, san-serif;
 }
 
-.medium { 
-    width: 400px;
+.content1{
+    font-size:10px; 
+    color: #ffffff;
+    font-family: Monaco, Helvetica, Arial, san-serif;
 }
 
-.header {
-    background: #0f0;
+.content2{
+    font-size:10px; 
+    color: #ffffff;
+    font-family: Monaco, Helvetica, Arial, san-serif;
 }
 
-.content {
-    background: #b200ff;
-}
+
