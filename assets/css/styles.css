@@ -1,14 +1,19 @@
 body {
     background: rgb(44, 41, 182);
-    font-size:30px; 
+    font-size:16px; 
     color: #ffffff;
+    font-family: Monaco, Helvetica, Arial, san-serif;
+
 }
 img{
     width: 200px;
     
 }
 div {
-    background: rgb(34, 190, 125);
+    background: #b200ff;
+    margin-left: 25%;
+    margin-right: 25%;
+
 }
 .small { 
     width: 200 px;

@@ -34,13 +34,13 @@ body {
 }
 .abs{ 
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 0px;
 }
 .fix{ 
     position: fixed;
-    top: 0px;
-    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 
 .byline{

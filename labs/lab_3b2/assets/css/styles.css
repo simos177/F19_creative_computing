@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
+
+.body{
+    background: #000000;
+}
+.square{
+    background: #F8E71C;
+    width: 768px;
+    height: 768px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+    .square2{
+        background: #202665;
+        width: 668px;
+        height: 668px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 25%;
+        display: inline-block;
+
+}
+
+    
+

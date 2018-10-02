@@ -1,12 +1,14 @@
 body {
-    background: #ffa;
-    font-size:30px; 
+    background: rgb(241, 87, 195);
+    font-size: 10px;
+    font-family: Monaco, Helvetica, Arial, san-serif;
+ 
 }
 img{
     width: 200px; 
 }
 div {
-    background: #ccc;
+    
 }
 .small { 
     width: 200 px;
