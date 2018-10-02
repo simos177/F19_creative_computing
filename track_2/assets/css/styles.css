@@ -7,7 +7,9 @@ body {
 img{
     width: 200px; 
 }
-div {
+.section{
+    font-size: 8pt;
+}
     
 }
 .small { 

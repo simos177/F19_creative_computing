@@ -1,6 +1,7 @@
 body {
-    background: rgb(238, 31, 169);
-    font-size:20px; 
+    background: #1D29B2;
+    font-size:12px; 
+    font-family: Monaco, Arial, Helvetica, sans-serif;
 }
 img{
     width: 200px; 
