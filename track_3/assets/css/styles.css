@@ -1,12 +1,14 @@
 body {
-    background: #ffa;
-    font-size:30px; 
+    background-image: linear-gradient(-90deg, rgb(178, 29, 111), #E8F145);
+    font-size:20px; 
+    font-family: Monaco, helvetica;
+
 }
 img{
     width: 200px; 
 }
 div {
-    background: #ccc;
+    background: rgba(253, 251, 251, 0.432);
 }
 .small { 
     width: 200 px;
@@ -22,5 +24,6 @@ div {
 }
 
 .content {
-    background: #b200ff;
+    font-size: 12px;
+    
 }
