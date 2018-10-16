@@ -15,23 +15,52 @@
   <body>
     <center>
     <div class="section">
-    <h1>Alternate Universe 1...</h1>
-    <h2>Earth's Doppelganger</h2>
+    <h1>Lab 4</h1>
+    <h2>User Testing</h2>
     </center>
   </div>
-  
-  <div class= "section">
-    
-    <img class= "small" src= "assets/img/g.jpg"/>
-  
+   
   </div>
-      <li><a href="track_1/index.html">back to reality</a></li>
-      
-  </div>
+  <div style="text-align:center"> 
+    <button onclick="playPause()">Play/Pause</button> 
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br>
+    <video id="video1" width="420">
+      <source src="assets/img/App_Draft_1_Example" type="video/mp4">
+  
+    </video>
+  </div> 
+
+  <script> 
+  var myVideo = "assets/img/App_Draft_1_Example"("video1"); 
+  
+  function playPause() { 
+      if (myVideo.paused) 
+          myVideo.play(); 
+      else 
+          myVideo.pause(); 
+  } 
+  
+  function makeBig() { 
+      myVideo.width = 560; 
+  } 
+  
+  function makeSmall() { 
+      myVideo.width = 320; 
+  } 
+  
+  function makeNormal() { 
+      myVideo.width = 420; 
+  } 
+  </script> 
+  <p>Video: <a href="https://youtu.be/IAdOg1mNIH8" target="_blank">AppDraftVideo</a>.</p>
 
   <script src="asset/js/app.js"></script>
 
   </body>
+
 
   
       
