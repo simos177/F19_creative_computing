@@ -1,26 +1,21 @@
 body {
-    background: #ffa;
-    font-size:30px; 
-}
-img{
-    width: 200px; 
-}
-div {
-    background: #ccc;
-}
-.small { 
-    width: 200 px;
-
+    background-image: linear-gradient(-80deg, #E8FB6C, #52BC27);
+    font-size:12px; 
+    font-family: Monaco, Arial, Helvetica, sans-serif;
 }
 
-.medium { 
-    width: 400px
-}
-
-.header {
-    background: #0f0;
-}
-
-.content {
-    background: #b200ff;
+.firstheader {
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 70%;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 75px;
+    width: 400px;
+    display: inline-block;
+    font-kerning: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
