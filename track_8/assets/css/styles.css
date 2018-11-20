@@ -1,0 +1,66 @@
+body {
+        background-image:#3023AE
+        font-size:12px; 
+        font-family: Monaco, Arial, Helvetica, sans-serif;
+    }
+    .firstheader {
+        margin-left: 35%;
+        margin-right: 30%;
+        margin-top: 25%;
+        margin-bottom: 20%;
+        background-color: rgb(255, 255, 255,0.5);
+        height: 75px;
+        width: 400px;
+        display: inline-block;
+        font-kerning: auto;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+       
+    .Line1 {
+        margin-left: 10%;
+        margin-right: 40%;
+        margin-top: 40%;
+        margin-bottom: 20%;
+        color: white;
+    }
+    
+    .Line2 {
+        margin-left: 70%;
+        margin-right: 10%;
+        margin-top: 50%;
+        margin-bottom: 10%;
+        color: white;
+    }
+    
+    .Line3 {
+        margin-left: 10%;
+        margin-right: 70%;
+        margin-top: 50%;
+        margin-bottom: 10%;
+        color: white;
+    }
+    
+    .Line4 {
+        margin-left: 70%;
+        margin-right: 10%;
+        margin-top: 50%;
+        margin-bottom: 10%;
+        color: white;
+    
+    }
+    
+    .Line5 {
+        margin-left: 10%;
+        margin-right: 70%;
+        margin-top: 50%;
+        margin-bottom: 10%;
+        color: white;
+    }
+        
+        
+        
+    
+    
