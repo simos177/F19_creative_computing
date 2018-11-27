@@ -1,5 +1,14 @@
 body {
-        background: #000000
-        font-size:20px; 
-        font-family: Monaco, helvetica;
-    
+        background-color: rgb(255, 255, 255);
+}
+
+.header{
+        position: static;
+        font-size:20px;
+        color: rgb(0, 0, 0); 
+} 
+
+.parenttrap2{
+        position: static;
+        margin: 0px 0px 0px 0px 
+}
