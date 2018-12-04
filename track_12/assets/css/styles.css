@@ -2,9 +2,22 @@ body {
         background-color: rgb(255, 255, 255);
 }
 
-.header{
+.content{
         position: static;
+        margin: 20px;
+        padding: 20px;
         font-size:20px;
         color: rgb(0, 0, 0); 
         font-family: monaco;
 } 
+
+.header{
+        font-family: Arial, Helvetica, sans-serif
+}
+
+.rectangle{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 100px; 
+       
+
+}

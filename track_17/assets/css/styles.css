@@ -1,0 +1,27 @@
+body {
+        background-color: rgb(255, 255, 255);
+}
+
+.content{
+        position: static;
+        margin: 20px;
+        padding: 20px;
+        font-size:20px;
+        color: rgb(0, 0, 0); 
+        font-family: monaco;
+} 
+
+.rectangle{
+        background: rgb(230, 136, 222);
+        padding: 30px;
+        width: 400px;
+        height: 2000px;
+        font-family: monaco;
+        font-style: bold;
+        margin: auto;
+        margin-top: 60%;
+        color: white;
+        border-radius: 20px;
+        
+
+}
