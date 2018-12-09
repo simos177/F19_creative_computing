@@ -1,33 +1,33 @@
 body {
-        background-color: #ffffff;
+        background-color: rgb(196,5,46);
+        font-family: Futura;
+        font-size: 36px;
 }
 
 .header{
-        font-family: monaco;
+        font-family: Futura;
         font-size: 46px;
         color: #000000;
 
 }
 .planets{
-        margin-left: 200px;
-        margin-top: 150px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+        width: 975px;
+        height: 295px;
+
 }
 
-
-.circle{
-        background: rgb(219, 9, 9);
-        width: 300px;
-        height: 300px;
-        margin-top: 10%;
-
-        border-radius: 200px;
-}
-
-.square{
-        background: rgb(0, 0, 255);
-        width: 300px;
-        height: 300px;
-        margin-top: 10%;
-
+.question {
+        background: rgba(255, 255, 255, 0.541);
+        color: rgb(0, 0, 0);
+        padding: 15px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: Futura;
+        font-size: 24px;
 
 }
