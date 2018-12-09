@@ -31,3 +31,18 @@ body {
         font-size: 24px;
 
 }
+
+.rectangle{
+        background: rgb(53, 55, 160);
+        padding: 30px;
+        width: 400px;
+        height: 2400px;
+        font-family: futura;
+        font-style: bold;
+        margin: auto;
+        margin-top: 35%;
+        color: white;
+        border-radius: 20px;
+
+}
+        
