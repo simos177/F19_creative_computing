@@ -2,58 +2,19 @@
 body {
     background-image: linear-gradient(-90deg, #1D29B2, #2ED143, #E8F145);
     font-size:12px; 
-    font-family: Monaco, Arial, Helvetica, sans-serif;
-}
-.section {
-    margin-left: 40%;
-    margin-right: 30%;
-    margin-top: 10%;
-    margin-bottom: 80%;
-    background-color: rgba(255, 255, 255, 0);
-    height: 75px;
-    width: 400px;
-    display: inline-block;
-    font-kerning: auto;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 .content {
-    margin-left: 35%;
-    margin-right: 30%;
-    margin-top: 0%;
-    margin-bottom: 100%;
-    background-color: rgb(255, 255, 255,0.5);
-    height: 75px;
-    width: 400px;
-    display: inline-block;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    font-size: 8px;
-    text-align: center;
-    font-family: Monaco, Helvetica, Arial, san-serif;
+        font-family: Futura;
+        color: #ffffff;
+        font-size: 12px;
 }
 
 .section{
-    font-size:10px; 
+    font-size:12px; 
     color: #ffffff;
-    font-family: Monaco, Helvetica, Arial, san-serif;
+    font-family: Futura, Helvetica, Arial, san-serif;
 }
-
-.content1{
-    font-size:10px; 
-    color: #ffffff;
-    font-family: Monaco, Helvetica, Arial, san-serif;
-}
-
-.content2{
-    font-size:10px; 
-    color: #ffffff;
-    font-family: Monaco, Helvetica, Arial, san-serif;
-}
-
 
