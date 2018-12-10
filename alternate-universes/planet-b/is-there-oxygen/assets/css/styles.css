@@ -15,7 +15,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        z-index: -1;
+        z-index: 0;
         width: 975px;
         height: 295px;
 
@@ -31,124 +31,74 @@ body {
         font-size: 24px;
 
 }
-
-.image {
-        position: absolute;
-        top: 70%;
-        left: 60%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    .image2 {
-        position: absolute;
-        top: 70%;
-        left: 30%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
-    .image3 {
-        position: absolute;
-        top: 120%;
-        left: 30%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    .image4 {
-        position: absolute;
-        top: 120%;
-        left: 60%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    .image5 {
-        position: absolute;
-        top: 170%;
-        left: 30%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    .image6 {
-        position: absolute;
-        top: 170%;
-        left: 60%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    .image7 {
-        position: absolute;
-        top: 220%;
-        left: 30%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-    .image8 {
-        position: absolute;
-        top: 220%;
-        left: 60%;
-        width: 287px;
-        height: 200px;
-        margin:-60px 0 0 -60px;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
-    }
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+* { 
+    box-sizing: border-box; 
+    vertical-align: top;
+  }
+  
+  body {
+    margin: 30px;
+    padding: 0;
+    font-size: 0;
+  }
+  
+  ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-item {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    font-size: 20px;
+  }
+  
+  .nav-item:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .content {
+    margin: 60px 0 0 0;
+    height: 500px;
+  }
+  
+  .hide { display: none; }
+  
+  .logo {
+    height: 79px;
+    width: 70px;
+    display: inline-block;
+    margin: 0 30px 30px 0;
+    position: relative;
+  }
+  
+  .logo.apple { width: 150px; }
+  
+  
+  .logo img {
+    position: absolute;
+    width:120%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .logo.apple img { height: 150px; }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
