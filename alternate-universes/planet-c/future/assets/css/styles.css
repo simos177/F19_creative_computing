@@ -1,12 +1,12 @@
 body {
         background-color: rgb(255, 255, 255);
         font-family: Futura;
-        font-size: 36px;
+        font-size: 32px;
 }
 
 .header{
         font-family: Futura;
-        font-size: 46px;
+        font-size: 44px;
         color: #000000;
 
 }
@@ -30,4 +30,11 @@ body {
         font-family: Futura;
         font-size: 24px;
 
+}
+
+.blob img{
+        position:fixed;
+        top: 10px;
+        left: 92%;
+        width: 7%;
 }

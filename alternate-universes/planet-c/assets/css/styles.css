@@ -10,6 +10,15 @@ body {
         color: #000000;
 
 }
+
+.AU img{
+        position:fixed;
+        top: 10px;
+        left: 92%;
+        width: 7%;
+   
+}
+
 .planets{
         position: fixed;
         top: 50%;

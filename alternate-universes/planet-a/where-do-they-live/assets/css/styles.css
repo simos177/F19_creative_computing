@@ -21,6 +21,14 @@ body {
 
 }
 
+.square img{
+        position:fixed;
+        top: 10px;
+        left: 92%;
+        width: 7%;
+}
+
+
 .question {
         background: rgba(255, 255, 255, 0.541);
         color: rgb(0, 0, 0);

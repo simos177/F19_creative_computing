@@ -31,3 +31,10 @@ body {
         font-size: 24px;
 
 }
+
+.blob img{
+        position:fixed;
+        top: 10px;
+        left: 92%;
+        width: 7%;
+}

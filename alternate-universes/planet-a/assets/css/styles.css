@@ -14,9 +14,9 @@ body {
 .AU img{
         position:fixed;
         top: 10px;
-        right: 345px;
-        width: 79px;
-        height: 70px;
+        left: 92%;
+        width: 7%;
+   
 }
 
 .planets{
