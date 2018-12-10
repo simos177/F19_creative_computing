@@ -6,9 +6,18 @@ body {
 
 .header{
         font-family: Futura;
-        font-size: 46px;
-        color: #000000;
+        font-size: 36px;
+        color: #ffffff;
+        font-style: bold;
 
+}
+
+.header2{
+        font-family: Futura;
+        font-size: 30px;
+        color: #ffffff;
+        
+           
 }
 
 .AU img{

@@ -1,22 +1,39 @@
 body {
         background-color:rgb(0,0,0);
+        background-image: linear-gradient(-180deg, #1D29B2, #7A25AB, #ff00d4)
 }
 
 .header{
         font-family: Futura;
-        font-size: 46px;
+        font-size: 30px;
         color: #ffffff;
 
 }
+
+.content{
+        font-family: Futura;
+        font-size: 20px;
+        color: #ffffff;
+        width: 50%;
+        margin-left: 25%;
+}
+
+.question{
+        font-family: Futura;
+        font-size: 16px;
+        color: #ff00d4;
+        width: 50%;
+        margin-left: 38%;
+}
 .planets{
-        margin-left: 200px;
-        margin-top: 150px;
+        margin-left: 250px;
+        margin-top: 105px;
 }
 
 .back{
         font-family: Futura;
         font-size; 8px;
         color: #ffffff;
-        margin-top: 140px;
+        margin-top: 70px;
         
 }
