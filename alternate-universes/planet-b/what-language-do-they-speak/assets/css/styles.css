@@ -37,3 +37,9 @@ body {
         left: 92%;
         width: 7%;
 }
+
+.language{
+        font-family: Futura;
+        font-size: 24px;
+        color: #ff0000;  
+}

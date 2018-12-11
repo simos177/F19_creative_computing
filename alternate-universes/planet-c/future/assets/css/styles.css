@@ -1,35 +1,7 @@
 body {
         background-color: rgb(255, 255, 255);
         font-family: Futura;
-        font-size: 32px;
-}
-
-.header{
-        font-family: Futura;
-        font-size: 44px;
-        color: #000000;
-
-}
-.planets{
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index: -1;
-        width: 975px;
-        height: 295px;
-
-}
-
-.question {
-        background: rgba(255, 255, 255, 0.541);
-        color: rgb(0, 0, 0);
-        padding: 15px 30px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-family: Futura;
-        font-size: 24px;
-
+        font-size: 20px;
 }
 
 .blob img{
@@ -38,3 +10,126 @@ body {
         left: 92%;
         width: 7%;
 }
+
+.btn {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
+.btn2 {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn2:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
+
+.btn3 {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn3:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
+      
+.btn3 {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn3:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
+.btn4 {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn4:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
+      
+.btn5 {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn5:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
+.btn6 {
+        background-color: #fffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        font-family: Futura;
+        font-size: 20px;
+      }
+      
+      .btn6:hover {
+        background-color: rgb(42, 141, 47);
+        color: white;
+      }
